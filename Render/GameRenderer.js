@@ -25,7 +25,7 @@ export default {
       
       void main() {
       	coords = aCoords;
-        gl_Position = proj * view * vec4(aPos, 1);
+        gl_Position = vec4(aPos, 1);
       }
     `;
     
